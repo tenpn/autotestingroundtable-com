@@ -18,9 +18,11 @@ title: Automated Testing Roundtables GDC 2016
       %p
         Each session focuses on a different discipline, but cut across team sizes, budgets, genres, and platforms. We don't care if you're a iOS-only one-person indie or a console juggernaut, we just want to hear your voice!
       %p
-        We're keen to democratize the agenda of the roundtables, so all are heard. You can contribute to the topics of each talk by submitting ideas via the form below. Or just turn up on the day!
+        We're keen to democratize the agenda of the roundtables, so all are heard. You can contribute to a talk by submitting topics via the form below. Or just turn up on the day!
       %p
         Come back soon for scheduling details!
+      %a.btn.btn-primary{:role => "button", :href => "#submit"}
+        Submit a topic
 .container
   .row
     %p
@@ -56,4 +58,64 @@ title: Automated Testing Roundtables GDC 2016
             <a href="http://schedule.gdconf.com/session/automated-testing-roundtable-legacy-day-3">3pm, Friday March 18th, Room 123 North</a>
           %p
             As much as we would like otherwise, automated testing is still a rarity in our industry. Do you have a culture or a codebase that doesn't currently embrace automated testing? Are you having trouble getting people onboard, or maybe it was very easy and you want to share why? Grand failures are just as interesting as successes! 
-
+  .row
+    .panel.panel-default.col-md-8.col-md-push-2
+      .panel-heading
+        %h3.panel-title
+          Submit a topic
+        %a#submit
+      .panel-body
+        %form.form-horizontal.panel-body{:action => "https://formspree.io/andrew.fray+atr@gmail.com", :method => "post"}
+          .form-group
+            %label.col-sm-4.control-label{:for => "name"}
+              Your name
+            .col-sm-4
+              %input.form-control{:id => "name", :type => "text", :placeholder => "Your Name", :name => "name"}
+          .form-group
+            %label.col-sm-4.control-label{:for => "email"}
+              Your email
+            .col-sm-8
+              %input.form-control{:id => "email", :type => "email", :placeholder => "you@example.com", :name => "_replyto"}
+          .form-group
+            %label.col-sm-4.control-label{:for => "talk"}
+              Which session is most suitable?
+            .col-sm-8
+              %select.form-control{:name => "talk"}
+                <option>Implementation</option>
+                <option>Process</option>
+                <option>Legacy</option>
+            %p.help-block.col-sm-8.col-sm-push-4
+              If you can only attend one session, but your topic fits another session better, don't sweat it. Just submit to the session you can attend.
+          .form-group
+            %label.col-sm-4.control-label{:for => "attendance"}
+              Are you attending this session?
+            .col-sm-8
+              %select.form-control{:name => "attendance"}
+                <option>Yes</option>
+                <option>Yes, but I'd rather not speak</option>
+                <option>No, just a suggestion</option>
+          .form-group
+            .col-sm-offset-4.col-sm-8
+              %label.control-label{:for => "question"}
+                Your topic
+              %p.help-block
+                (Clearly state your topic as a question, with any surrounding context)
+              %textarea.form-control{:rows => "5", :name => "question", :placeholder => "What is the state of mocking in C++? Without reflection how do you balance the speed costs of virtual functions with the need to make a class easily testable?"}
+          .form-group
+            .col-sm-offset-4.col-sm-8
+              %label.control-label{:for => "responses"}
+                What type of responses would you like to hear?
+              %textarea.form-control{:rows => "5", :name => "responses", :placeholder => "Recommended C++ mocking frameworks, and tips and tricks for minimising the impact of testable classes on runtime performance."}
+          %input{:type => "hidden", :name => "_subject",
+                 :value => "Automated Roundtables Suggestion"}
+          %input{:type => "text", :name => "_gotcha", :style => "display:none"}
+          %button.btn.btn-default.pull-right{:type => "submit"}
+            Submit
+  .row
+    .col-md-8.col-md-push-2
+      %p
+        If you have any questions or just want to say hi: <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>, <a href="https://www.twitter.com/tenpn">@tenpn</a>
+.container        
+  %footer
+    %p.pull-right
+      &copy; Andrew Fray 2014
