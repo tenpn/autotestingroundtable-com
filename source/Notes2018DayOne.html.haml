@@ -1,0 +1,109 @@
+---
+title: Automated Testing Roundtables 2018 Day 1 Notes
+---
+.container
+  .row
+    %h2
+      Notes from 2018 Day 1: Process
+    %p
+      with thanks to Nicholas Dunning
+      
+  .row
+    %h3
+      Resources available for learning how to do automated testing
+    %ul
+      %li
+        Book: The art of unit testing
+      %li
+        Mostly self-taught it seems
+      %li
+        Automate at all levels, not just integration testing
+      %li
+        Dive deep into the documentation
+      %li
+        Book: Testing legacy systems
+ 
+  .row
+    %h3
+      How to deal with fast iteration, especially in relation to black-box testing
+    %ul
+      %li
+        functional testing might not be suitable while the feature is still in early development or you know it will change a lot in the near future
+      %li
+        some tests don’t need to focus on exact values, so make a distinction between these types of tests
+      %li
+        Make a unit test to focus on the exact change you made, ranter than the whole feature
+      %li
+        Use pre-validation when creating objects to ensure they start in the most valid state possible
+      %li
+        Communication is key, which may lead to a false-negative in the test
+      %li
+        This relates a lot to hand-off
+      %li
+        Check for valid outputs, not exact values
+      %li
+        Reduce the dependancy of the test by putting the system into a state a near to the target state-change as possible
+
+  .row
+    %h3
+      How to go from manual to automated testing, large scale
+    %ul
+      %li
+        Reduce the duplicated tests to stop wasting time
+      %li
+        Someone who is experienced with QA testing working with an experienced developer can help jump-start the system
+      %li
+        Assume un-tested code is broken, so focus on that stuff first (Uber)
+      %li
+        Local CI is a good place to start, as well as smoke tests
+      %li
+        Build the feature tests from a customer-perspective
+      %li
+        Get the dev team into the testing, not all handed off to the QA engineers
+      %li
+        Show how the user is impacted if the bug is not fixed, to help prioritise them
+
+  .row
+    %h3
+      How do maintain quality no matter who is testing?
+    %ul
+      %li
+        TDD, do it. (Google)
+      %li
+        Make sure you pin-point where things have changed before asking someone else to test it
+      %li
+        System-map could help here
+      %li
+        You need input from both development and testing specialists, as they have a different outlook on how the feature needs to be tested
+      %li
+        Keep the testing framework as simple as possible so that everyone can write and run test
+      %li
+        If people don’t trust the testing framework, they lose confidence in it, which actually leads to writing bad tests
+      %li
+        Put a test plan in place (earlier the better)
+      %li
+        This is a good point to start working out where and what to automate
+
+    .row
+      %h3
+        How much should we automate, and where should we draw the line?
+      %ul
+        %li
+          More valuable tests are integration and end-to-end (Google)
+        %li
+          The more manual effort, the better of an idea it is to convert it to an automated test
+        %li
+          If the overhead is low, there no such thing as too much testing (Google)
+        %li
+          Unit tests should be the highest amount, with the amount decreasing until you reach end-to-end (Google)
+        %li
+          If you don’t know what test to write, write the tests when the system or api is going to change (Apple)
+        %li
+          Run the heavy stuff over-night to reduce the feedback time of builds
+        %li
+          If the code you are changing doesn’t have a test, write one first
+
+.container        
+  %footer
+    %p.pull-right
+      &copy; Andrew Fray 2018
