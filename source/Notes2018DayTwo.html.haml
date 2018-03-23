@@ -1,0 +1,174 @@
+---
+title: Automated Testing Roundtables 2018 Day 2 Notes
+---
+.container
+  .row
+    %h2
+      Notes from 2018 Day 2: Legacy
+    %p
+      with thanks to Nicholas Dunning
+      
+  .row
+    %h3
+      How to start testing old, monolithic systems
+    %ul
+      %li
+        First look at the problem you are trying the address before you dive in
+      %li
+        Start simple, and use the team to start to build the focus
+      %li
+        Use simple record and reply to start on a functional level
+      %li
+        Focus on new code and start with unit tests
+      %li
+        <a href="http://www.sikuli.org/">Sikuli</a> is a good tool to start with when you don’t have hooks into the old system
+      %li
+        <a href="https://sikulix-2014.readthedocs.io/en/latest/index.html">https://sikulix-2014.readthedocs.io/en/latest/index.html</a>
+      %li
+        Check if the business can afford to dig deep into this type of testing
+      %li
+        Make sure no one else is already doing this in another way
+      %li
+        Could be a manual approach which can be automated
+      %li
+        Start with code which has little or no dependencies
+      %li
+        Code coverage is also a good tool as there are many off-the-shelf solutions 
+
+  .row
+    %h3
+      Data output, pruning and mining the results to reduce overhead which leads to a loss of history
+    %ul
+      %li
+        Old store the failed test results
+      %li
+        Storing just a time series can be useful
+      %li
+        Smaller tables hidden behind views can help with search and query time
+      %li
+        Smaller items can be kept for a long time, whereas larger items could be deleted after a reasonable amount of time
+      %li
+        Companies are using Machine Learning to detect the most useful information, would be worth to search this industry
+      %li
+        Raw data is only kept for a short time
+      %li
+        Once the build has been analysed, the remote store of raw data is deleted
+      %li
+        Devs need to pull this locally, so they should have a local copy anyway
+      %li
+        Compression of large files is key
+      %li
+        Use a combination of Hot, Warm, and Cold storage based on the data type
+      %li
+        If you have incremental builds, only store the output of the failing increment (Uber)
+      %li
+        Book: Designing data intensive applications
+ 
+  .row
+    %h3
+      Testing frameworks 
+    %ul
+      %li
+        For games, it’s tough to find something off-the-shelf
+      %li
+        Loading times and network rates mean it is tough to test without hooks and active feedback loops
+      %li
+        Mods written to hack the game can actually be used at testing tools
+      %li
+        Check out AutoPlay AI, they are working on something for this so check them out
+
+  .row
+    %h3
+      Introducing code coverage
+    %ul
+      %li
+        Code coverage is just a metric, so it shouldn’t be at the “cover-all” solution for how well your code is actually tested
+      %li
+        High-coverage doesn’t mean you are testing well, but it’s at lest a good initial indicator
+      %li
+        Sometimes it can lead to a false sense of security
+      %li
+        Bug tracking often starts in the low-coverage areas which might be the wrong place to start
+      %li
+        Low coverage is bad but striving for a high number might not be the ultimate goal
+      %li
+        Tough when you have engine-specific API which cannot be called in tests
+      %li
+        Look at how often the code is changing, as this is actually a good place to start with finding bugs
+      %li
+        If a certain function is constantly changing, it might be prone to errors
+      %li
+        Try to reduce the complexity of the function instead of striving for high coverage
+
+  .row
+    %h3
+      Dealing with low confidence and flakey tests
+    %ul
+      %li
+        Separate the test results and the test framework to help find the cause of the problem
+      %li
+        Focus on the infrastructure to increase confidence in the system
+      %li
+        If you are thinking of a rerun policy, be careful
+      %li
+        Tests should be kept small
+      %li
+        If your unit test is big, it’s probably not actually a unit test
+      %li
+        Mocks are good to keep the scope of a test small
+      %li
+        Keep parameter count of methods low in order to reduce the amount of build-up and tear-down needed
+      %li
+        Don’t spam people with auto-generated build information, because they will ignore a lot of information
+      %li
+        It might not be the developers who don’t know how to test, but actually the testing strategy may be inclusive to wiring flakey tests
+      %li
+        Educate people to know why granular testing is beneficial
+      %li
+        It’s often seen as a negative to write lots of small tests
+      %li
+        Andrew's <a href="https://www.gdcvault.com/play/1020353/Practical-Unit">free vault talk</a> covers spotting bad patterns in a poor unit test suite and fixing them.
+ 
+  .row
+    %h3
+      Who is responsible when the tests brake
+    %ul
+      %li
+        The developer responsible for the broken build is sent an email
+      %li
+        Lots of information on how to reproduce the problem
+      %li
+        Also sent to QA team
+      %li 
+        Use pattern analysis to automate the  feedback process and recuse the manual overhead
+      %li 
+        Use pre-push hooks in git so that it doesn’t get merged
+      %li 
+        If you broke it, you fix it
+      %li 
+        Helps to reduce context switching
+ 
+  .row
+    %h3
+      Strategy for small teams working on a single product
+    %ul
+      %li
+        If it’s not tested, it doesn’t get committed
+      %li 
+        Unit testing is the best place to start
+      %li 
+        Make the testing framework accessible to everyone
+      %li 
+        Results in more test and easier to analyse problems
+      %li 
+        Lead by example
+      %li 
+        Low-level test can help to quickly identify edge-cases
+      %li 
+        Don’t be too exhaustive, you will hate to write tests
+      %li 
+        Focus on places where you often have problems
+.container        
+  %footer
+    %p.pull-right
+      &copy; Andrew Fray 2018
