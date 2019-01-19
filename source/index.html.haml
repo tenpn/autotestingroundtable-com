@@ -1,5 +1,5 @@
 ---
-title: Automated Testing Roundtables GDC 2018
+title: Automated Testing Roundtables GDC 2019
 ---
 
 .jumbotron
@@ -8,28 +8,26 @@ title: Automated Testing Roundtables GDC 2018
       %h1
         AUTOMATED TESTING ROUNDTABLES
     %h2
-      GDC 2018
+      GDC 2019
   
 .container
   .row
     .col-md-8.col-md-push-2
       %p.lead
-        Automated Testing is back for the forth year of roundtables at GDC 2018.
+        Automated Testing is back for the fifth year of roundtables at GDC 2019!
       %p
         Each session focuses on a different discipline, but cut across team sizes, budgets, genres, and platforms. We don't care if you're a iOS-only one-person indie or a console juggernaut, we just want to hear your voice!
-      %p
-        We're keen to democratize the agenda of the roundtables, so all are heard. You can contribute to a talk by submitting topics via the form below. Or just turn up on the day!
-      %a.btn.btn-primary{:role => "button", :href => "#submit"}
-        Submit a topic
   %br
   .row
     .col-md-8.col-md-push-2
       %p.lead 
-        Join the community!
-      %p 
-        If you'd like to keep in touch all year round, why not <a href="https://discord.gg/knxeqcG">join our Discord?</a>
+        Join the Community
       %p
-        Also, <a href="#recommend">check out some GDC 2018 talks we recommend!</a>
+        Check out some of the <a href="#recommend">talks around GDC 2019</a> that we recommend, and some of the <a href="#vault">vault talks</a> we've enjoyed in the past. 
+      %p
+        If you'd like to keep in touch all year round, why not join our Discord?
+      %a.btn.btn-primary{:role => "button", :href => "https://discord.gg/knxeqcG"}
+        Join the Discord!
 .container
   .row
     %p
@@ -42,11 +40,10 @@ title: Automated Testing Roundtables GDC 2018
             Process Roundtable
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-1/851433">11am, Wednesday March 21st, Room 208 South</a>
+            TBD
+            -#<a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-1/851433">11am, Wednesday March 21st, Room 208 South</a>
           %p
             Beyond the software that we use to test our games are the people that write the tests and the workflows they use to reinforce them. How does the process work in your studio? Are the engineers responsible for automated tests, or QA? Are QA silo'd or integrated? What could be better?
-          %p
-            <a href="Notes2018DayOne.html">Notes from Day 1</a>
     .col-md-4
       .panel.panel-info
         .panel-heading
@@ -54,86 +51,38 @@ title: Automated Testing Roundtables GDC 2018
             Legacy Roundtable
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-2/856812">11:30am, Thursday March 22nd, Room 208 South</a>
+            TBD
+            -#<a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-2/856812">11:30am, Thursday March 22nd, Room 208 South</a>
           %p
             As much as we would like otherwise, automated testing is still a rarity in our industry. Do you have a culture or a codebase that doesn't currently embrace automated testing? Are you having trouble getting people onboard, or maybe it was very easy and you want to share why? Grand failures are just as interesting as successes! 
-          %p
-            <a href="Notes2018DayTwo.html">Notes from Day 2</a>
     .col-md-4
       .panel.panel-info
         .panel-heading
           %h3.text-center
             Implementation Roundtable
         .panel-body
-          %p 
-            <a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-3/856813">10am, Friday March 23rd, Room 208 South</a>
+          %p
+            TBD
+            -#<a href="http://schedule.gdconf.com/session/automated-testing-roundtable-day-3/856813">10am, Friday March 23rd, Room 208 South</a>
           %p
             Software automation has many faces, from locally-run functional and unit tests, to server-driven continuous integration, and even external device farms. How do you do automated testing in your team? What works well for you? More interestingly, what didn't work and why? 
-  .row
-    .panel.panel-default.col-md-8.col-md-push-2
-      .panel-heading
-        %h3.panel-title
-          Submit a topic
-        %a#submit
-      .panel-body
-        %form.form-horizontal.panel-body{:action => "https://formspree.io/andrew.fray+atr@gmail.com", :method => "post"}
-          .form-group
-            %label.col-sm-4.control-label{:for => "name"}
-              Your name
-            .col-sm-4
-              %input.form-control{:id => "name", :type => "text", :placeholder => "Your Name", :name => "name"}
-          .form-group
-            %label.col-sm-4.control-label{:for => "email"}
-              Your email
-            .col-sm-8
-              %input.form-control{:id => "email", :type => "email", :placeholder => "you@example.com", :name => "_replyto"}
-          .form-group
-            %label.col-sm-4.control-label{:for => "talk"}
-              Which session is most suitable?
-            .col-sm-8
-              %select.form-control{:name => "talk"}
-                <option>Implementation</option>
-                <option>Process</option>
-                <option>Legacy</option>
-            %p.help-block.col-sm-8.col-sm-push-4
-              If you can only attend one session, but your topic fits another session better, don't sweat it. Just submit to the session you can attend.
-          .form-group
-            %label.col-sm-4.control-label{:for => "attendance"}
-              Are you attending this session?
-            .col-sm-8
-              %select.form-control{:name => "attendance"}
-                <option>Yes</option>
-                <option>Yes, but I'd rather not speak</option>
-                <option>No, just a suggestion</option>
-          .form-group
-            .col-sm-offset-4.col-sm-8
-              %label.control-label{:for => "question"}
-                Your topic
-              %p.help-block
-                (Clearly state your topic as a question, with any surrounding context)
-              %textarea.form-control{:rows => "5", :name => "question", :placeholder => "What is the state of mocking in C++? Without reflection how do you balance the speed costs of virtual functions with the need to make a class easily testable?"}
-          .form-group
-            .col-sm-offset-4.col-sm-8
-              %label.control-label{:for => "responses"}
-                What type of responses would you like to hear?
-              %textarea.form-control{:rows => "5", :name => "responses", :placeholder => "Recommended C++ mocking frameworks, and tips and tricks for minimising the impact of testable classes on runtime performance."}
-          %input{:type => "hidden", :name => "_subject",
-                 :value => "Automated Roundtables Suggestion"}
-          %input{:type => "hidden", :name => "_next",
-                 :value => "http://www.autotestingroundtable.com/next.html"}
-          %input{:type => "text", :name => "_gotcha", :style => "display:none"}
-          %button.btn.btn-default.pull-right{:type => "submit"}
-            Submit
 %hr            
 .container{:id => "recommend"}
   .row
     .col-md-8.col-md-push-2
       %p.lead
-        Looking for more automated testing talks? 
+        More automated testing talks at GDC 2019
       %p
-        Here's some that caught our eye. Let us know if you find any more! 
+        We'll be filling this up in due course with promising talks from the conference scheduler.
       %p
-        Some clash with the roundtables. This sucks! But we'd (obviously) recommend the roundtables as the sessions will be on the vault. 
+        If you've spotted any that you think would be interesting to roundtable attendees, let us know in the <a href="https://discord.gg/knxeqcG">discord</a> or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
+.container{:id => "vault"}
+  .row
+    .col-md-8.col-md-push-2
+      %p.lead
+        Interesting talks to watch right now
+      %p
+        Here are some that we've enjoyed in previous years. If you know one that we aven't got listed here, from any year, let us know by dropping by the <a href="https://discord.gg/knxeqcG">discord</a>, or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
 .container
   .row
     %p
@@ -146,67 +95,56 @@ title: Automated Testing Roundtables GDC 2018
             Tools to Reduce Open Bug Count at Media Molecule
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/tools-tutorial-day-tools-to-reduce-open-bug-count-at-media-molecule/855680">11.20am, Monday March 19th, Room 3007 West</a>
+            Amy Phillips
+          %p
+            <a href="https://gdcvault.com/play/1025013/Tools-Tutorial-Day-Tools-to">Play on the Vault</a>, FREE!
           %p
             How to improve the stability of your game by linking tools together and optimizing the path that bugs take between being introduced and being closed.
     .col-md-3
       .panel.panel-danger
         .panel-heading
           %h3.text-center
-            Automated Testing and Profiling for 'Call of Duty'
+            Automated Testing and Profiling for Call of Duty
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/automated-span-classhighlighttestspaning-and-profiling-for-call-of-duty/852008">10am, Thursday March 22nd, Room 2006 West</a>
+            Jan van Valburg
+          %p
+            <a href="https://gdcvault.com/play/1025064/Automated-Testing-and-Profiling-for">Play on the Vault</a>
           %p
             You will learn about the inner workings of Call of Duty's automated building and testing tooling, it's various unique features, and how its ideas might be applied to your own projects.
     .col-md-3
       .panel.panel-danger
         .panel-heading
           %h3.text-center
-            'Assassin's Creed Origins': Monitoring and Validation of World Design Data
+            Assassin's Creed Origins: Monitoring and Validation of World Design Data
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/assassins-creed-origins-monitoring-and-validation-of-world-design-data/852333">11.30am, Thursday March 22nd, Room 2002 West</a>
+            Nicholas Routhier
+          %p
+            <a href="https://gdcvault.com/play/1025054/-Assassin-s-Creed-Origins">Play on the Vault</a>
           %p
             Daily automated testing of world design data is a game changer. Attendees will learn how it helps world builders in their daily tasks, allows for more iteration time, provides data for evidence based decision making and makes for a much smoother debug phase.
-          %p
-            <strong>This clahses with the Thursday roundable. If you're in two minds, remember the roundtables aren't recorded on the vault.</strong>
     .col-md-3
       .panel.panel-danger
         .panel-heading
           %h3.text-center
-            The State of QA Roundtable Day 2: Tools
+            Adopting Continuous Delivery At Rare
         .panel-body
           %p 
-            <a href="http://schedule.gdconf.com/session/the-state-of-qa-roundtable-day-2-tools/856831">5.30pm, Thursday March 22nd, Room 215 South</a>
+            Jafar Soltani
           %p
-            Attendees will leave with a broader perspective on how different organizations approach the QA process. They will gain specific knowledge about how to address their QA problems and they will connect directly with other developers facing similar issues.
-  .row
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Adopting Continuous Delivery
-        .panel-body
-          %p 
-            <a href="http://schedule.gdconf.com/session/adopting-continuous-delivery/851647">10am, Friday March 23nd, Room 3016 West</a>
+            <a href="https://gdcvault.com/play/1025028/Adopting-Continuous">Play on the Vault</a>
           %p
             You will learn about the benefits of adopting "continuous delivery" in AAA video games, what challenges you'd face and what practices you can use.
-          %p
-            <strong>Rare's talk was one of the ones we were most excited about! But unfortunately it clashes with the Friday roundtable. Looking forward to catching it on the vault.</strong>
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            'Horizon Zero Dawn': Using Automated Tools to Support Testing an Open World Game
-        .panel-body
-          %p 
-            <a href="http://schedule.gdconf.com/session/horizon-zero-dawn-using-automated-tools-to-support-span-classhighlighttestspaning-an-open-world-game/856890">12.15pm-12.40pm, Friday March 23nd, Overlook 3014 West</a>
-          %p
-            Attendees will takeaway a high level overview of WWS QA and Guerrillas automation tools and data visualization solution, how they used automation in order to get the best of traditional testers and how they analyzed risk on a AAA open world game
-          %p
-            <strong>This is a poster session, so you could pop along any time, but 12.15pm is when the presenter is doing a talk.</strong>
-
+.container{:id => "notes"}
+  .row
+    .col-md-8.col-md-push-2
+      %p.lead
+        Notes from previous years
+      %p
+        <a href="Notes2018DayOne.html">Notes from Process, 2018</a>
+      %p
+        <a href="Notes2018DayTwo.html">Notes from Legacy, 2018</a>
 %hr            
 .container          
   .row
@@ -216,4 +154,4 @@ title: Automated Testing Roundtables GDC 2018
 .container        
   %footer
     %p.pull-right
-      &copy; Andrew Fray 2014-2018
+      &copy; Andrew Fray 2014-2019
