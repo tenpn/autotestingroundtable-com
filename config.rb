@@ -71,12 +71,16 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+secrets_file = File.open("secrets.txt", "r")
+password = secrets_file.read.strip
+secrets_file.close
+
 activate :deploy do |deploy|
   deploy.method   = :ftp
   deploy.host     = 'ftp.autotestingroundtable.com'
   deploy.path     = 'public_html/'
   deploy.user     = 'andrew@autotestingroundtable.com'
   # https://github.com/karlfreeman/middleman-deploy/issues/22#issuecomment-18701276
-  deploy.password = `security 2>&1 >/dev/null find-generic-password -ga andrew@autotestingroundtable.com |ruby -e 'print $1 if STDIN.gets =~ /^password: "(.*)"$/'`
+  deploy.password = password
   deploy.build_before = true 
 end
