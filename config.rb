@@ -71,9 +71,12 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-secrets_file = File.open("secrets.txt", "r")
-password = secrets_file.read.strip
-secrets_file.close
+password = "foo"
+if File.exist?("secrets.txt")
+  secrets_file = File.open("secrets.txt", "r")
+  password = secrets_file.read.strip
+  secrets_file.close  
+end
 
 activate :deploy do |deploy|
   deploy.method   = :ftp
