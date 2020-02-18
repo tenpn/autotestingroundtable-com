@@ -70,9 +70,24 @@ title: Automated Testing Roundtables GDC 2019
       %p.lead
         More automated testing talks at GDC
       %p
-        We'll be filling this up in due course with promising talks from the conference scheduler.
+        Here's a selection of GDC 2020 talks that we think might be interesting to Automated Testing Roundtable attendees. Add them to your schedule now! 
       %p
         If you've spotted any that you think would be interesting to roundtable attendees, let us know in the <a href="https://discord.gg/knxeqcG">discord</a> or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
+.container
+  .row
+    - data.schedule.current.each do |talksgroup|
+      .row
+      - talksgroup.each do |talk|
+        .col-md-3
+          .panel.panel-danger
+            .panel-heading
+              %h3.text-center= talk.title
+            .panel-body
+              %p= talk.speakers
+              %p= talk.pass
+              %p
+                %a{:href => "#{talk.url}"} TBC
+              %p= talk.desc
 %hr        
 .container{:id => "vault"}
   .row
