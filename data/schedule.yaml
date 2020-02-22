@@ -1,50 +1,51 @@
 # gotta split them into lists of 4
 current:
   -
-    - title: Build and Deploy Games Faster With CI/CD Pipelines (Presented by Amazon Game Tech)
-      pass: All Passes
-      speakers: Yahav Biran, Neelam Koshiya
-      url: https://schedule.gdconf.com/session/build-and-deploy-games-faster-with-cicd-pipelines-presented-by-amazon-game-tech/873878
-      desc: This looks like a great intro to continuous integration and delivery from AWS. Obviously it's going to lean on their services hard, but you shouldn't let that stop you attending if the takeaways sound useful.
-
     - title: Identifying Suspicious Activity With Machine Learning Powered Abuse Detection Pipelines (Presented by Amazon Game Tech)
       pass: All Passes
+      time: Monday, 1:20pm, Room 3001 West
       speakers: Nicholas Walsh, Brandon Bouier
       url: https://schedule.gdconf.com/session/identifying-suspicious-activity-with-machine-learning-powered-abuse-detection-pipelines-presented-by-amazon-game-tech/873857
-      desc: Another AWS talk, but sponsored talks are always free even to expo pass holders, so they can be very useful. And there's no reason why automated testing shouldn't extend to cover player-to-player interaction as well!
-
-    - title: Building An Intelligent Game Testing System in Netease MMORPG Game
-      pass: Machine Learning Summit - All Access Pass, Core+Summits Pass, Summits Pass
-      speakers: Yingfeng Chen, Xiao Li
-      url: https://schedule.gdconf.com/session/machine-learning-summit-building-an-intelligent-game-testing-system-in-netease-mmorpg-game/870815
-      desc: "This session will introduce new ML and AI techniques that have been used in the testing of the Netease MMORPG game - \"Justice\", which helps to build an intelligent testing system for three typical game testing scenarios: quests regression testing, class balancing testing and dungeons testing."
-
-    - title: "Procedural Test Generation: Content for Developers"
-      pass: All Access Pass, Core+Summits Pass, Core Pass
-      speakers: Tom Thompson
-      url: https://schedule.gdconf.com/session/procedural-test-generation-content-for-developers/868590
-      desc: "A session diving into the practice of Property-Based Testing, which has wider acceptance outside of the games industry. Property-based testing can give you great coverage, including finding unexpected edge cases, for little upfront cost!"
-  -
-    - title: "Technical Issues in Tools Development Roundtable Day 2: Pipeline"
-      pass: All Access Pass, Core+Summits Pass, Core Pass
-      speakers: Geoff Evans
-      url: https://schedule.gdconf.com/session/technical-issues-in-tools-development-roundtable-day-2-pipeline-/872751
-      desc: The Tools Roundtables normally have a great deal of overlap with the Automated Testing Roundtables, and this session epecially will. Geoff is an excellent moderator, and the chat promises to be interesting and productive.
+      desc: Sponsored talks are always free even to expo pass holders, so they can be very useful. And there's no reason why automated testing shouldn't extend to cover player-to-player interaction as well!
 
     - title: "From 0-1000: A Test Driven Approach to Tools Development"
       pass: Tools Summit - All Access Pass, Core+Summits Pass, Summits Pass
+      time: Monday, 4:40pm, Room 3004 West
       speakers: David Paris
       url: https://schedule.gdconf.com/session/tools-summit-from-0-1000-a-test-driven-approach-to-tools-development-/870396
       desc: How did Playground Games introduce a testing culture to an already-shipped game, and why? What did they learn, and how do they plan to improve? 
 
-    - title: "TestMonkey: Automated Testing at Santa Monica Studio"
-      pass: Tools Summit - All Access Pass, Core+Summits Pass, Summits Pass
-      speakers: Ben Hines
-      url: https://schedule.gdconf.com/session/tools-summit-testmonkey-automated-testing-at-santa-monica-studio/869695
-      desc: How do Santa Monica use automated testing in complex AAA games? Will be interesting to compare this talk to the Playground Games talk.
+    - title: Build and Deploy Games Faster With CI/CD Pipelines (Presented by Amazon Game Tech)
+      pass: All Passes
+      time: Tuesday, 5:30pm, Room 3001 West
+      speakers: Yahav Biran, Neelam Koshiya
+      url: https://schedule.gdconf.com/session/build-and-deploy-games-faster-with-cicd-pipelines-presented-by-amazon-game-tech/873878
+      desc: This looks like a great intro to continuous integration and delivery from AWS. Obviously it's going to lean on their services hard, but you shouldn't let that stop you attending if the takeaways sound useful.
 
+    - title: Building An Intelligent Game Testing System in Netease MMORPG Game
+      pass: Machine Learning Summit - All Access Pass, Core+Summits Pass, Summits Pass
+      time: Tuesday, 5:30pm, Room 202 South
+      speakers: Yingfeng Chen, Xiao Li
+      url: https://schedule.gdconf.com/session/machine-learning-summit-building-an-intelligent-game-testing-system-in-netease-mmorpg-game/870815
+      desc: "This session will introduce new ML and AI techniques that have been used in the testing of the Netease MMORPG game - \"Justice\", which helps to build an intelligent testing system for three typical game testing scenarios: quests regression testing, class balancing testing and dungeons testing."
+
+  -
     - title: "Tools for Automated Testing for 'Mortal Kombat 11'"
       pass:  All Access Pass, Core+Summits Pass, Core Pass
+      time: Wednesday, 2pm, Room 210 South
       speakers: Eldo Jose
       url: https://schedule.gdconf.com/session/tools-for-automated-testing-for-mortal-kombat-11/868316
-      desc: How did Netherrealm provide non-technical QA users with a fexible framework to build tests, and how did that lead to an exponential increase in test coverage? What unique challenges did they face? 
+      desc: How did Netherrealm provide non-technical QA users with a fexible framework to build tests, and how did that lead to an exponential increase in test coverage? What unique challenges did they face?
+
+    - title: "Technical Issues in Tools Development Roundtable Day 2: Pipeline"
+      pass: All Access Pass, Core+Summits Pass, Core Pass
+      time: Thursday, 10am, Room 314 South
+      speakers: Geoff Evans
+      url: https://schedule.gdconf.com/session/technical-issues-in-tools-development-roundtable-day-2-pipeline-/872751
+      desc: The Tools Roundtables normally have a great deal of overlap with the Automated Testing Roundtables, and this session epecially will. Geoff is an excellent moderator, and the chat promises to be interesting and productive.
+    - title: "Procedural Test Generation: Content for Developers"
+      pass: All Access Pass, Core+Summits Pass, Core Pass
+      time: Thursday, 4pm, Room 210 South
+      speakers: Tom Thompson
+      url: https://schedule.gdconf.com/session/procedural-test-generation-content-for-developers/868590
+      desc: "A session diving into the practice of Property-Based Testing, which has wider acceptance outside of the games industry. Property-based testing can give you great coverage, including finding unexpected edge cases, for little upfront cost!"
