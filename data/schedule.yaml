@@ -6,14 +6,7 @@ current:
       time: Monday, 1:20pm, Room 3001 West
       speakers: Nicholas Walsh, Brandon Bouier
       url: https://schedule.gdconf.com/session/identifying-suspicious-activity-with-machine-learning-powered-abuse-detection-pipelines-presented-by-amazon-game-tech/873857
-      desc: Sponsored talks are always free even to expo pass holders, so they can be very useful. And there's no reason why automated testing shouldn't extend to cover player-to-player interaction as well!
-
-    - title: "From 0-1000: A Test Driven Approach to Tools Development"
-      pass: Tools Summit - All Access Pass, Core+Summits Pass, Summits Pass
-      time: Monday, 4:40pm, Room 3004 West
-      speakers: David Paris
-      url: https://schedule.gdconf.com/session/tools-summit-from-0-1000-a-test-driven-approach-to-tools-development-/870396
-      desc: How did Playground Games introduce a testing culture to an already-shipped game, and why? What did they learn, and how do they plan to improve? 
+      desc: "Sponsored talks are always free even to expo pass holders, so they can be very useful. And there's no reason why automated testing shouldn't extend to cover player-to-player interaction as well!"
 
     - title: Build and Deploy Games Faster With CI/CD Pipelines (Presented by Amazon Game Tech)
       pass: All Passes
@@ -22,14 +15,6 @@ current:
       url: https://schedule.gdconf.com/session/build-and-deploy-games-faster-with-cicd-pipelines-presented-by-amazon-game-tech/873878
       desc: This looks like a great intro to continuous integration and delivery from AWS. Obviously it's going to lean on their services hard, but you shouldn't let that stop you attending if the takeaways sound useful.
 
-    - title: Building An Intelligent Game Testing System in Netease MMORPG Game
-      pass: Machine Learning Summit - All Access Pass, Core+Summits Pass, Summits Pass
-      time: Tuesday, 5:30pm, Room 202 South
-      speakers: Yingfeng Chen, Xiao Li
-      url: https://schedule.gdconf.com/session/machine-learning-summit-building-an-intelligent-game-testing-system-in-netease-mmorpg-game/870815
-      desc: "This session will introduce new ML and AI techniques that have been used in the testing of the Netease MMORPG game - \"Justice\", which helps to build an intelligent testing system for three typical game testing scenarios: quests regression testing, class balancing testing and dungeons testing."
-
-  -
     - title: "Tools for Automated Testing for 'Mortal Kombat 11'"
       pass:  All Access Pass, Core+Summits Pass, Core Pass
       time: Wednesday, 2pm, Room 210 South
@@ -43,6 +28,8 @@ current:
       speakers: Geoff Evans
       url: https://schedule.gdconf.com/session/technical-issues-in-tools-development-roundtable-day-2-pipeline-/872751
       desc: The Tools Roundtables normally have a great deal of overlap with the Automated Testing Roundtables, and this session epecially will. Geoff is an excellent moderator, and the chat promises to be interesting and productive.
+
+  -
     - title: "Procedural Test Generation: Content for Developers"
       pass: All Access Pass, Core+Summits Pass, Core Pass
       time: Thursday, 4pm, Room 210 South
