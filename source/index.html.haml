@@ -96,126 +96,23 @@ title: Automated Testing Roundtables GDC 2019
         Interesting talks to watch right now
       %p
         Here are some that we've enjoyed in previous years. If you know one that we haven't got listed here, from any year, let us know by dropping by the <a href="https://discord.gg/knxeqcG">discord</a>, or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
-.container  
+.container
   .row
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            AI for Testing: The Development of Bots that Play 'Battlefield V'
-        .panel-body
-          %p 
-            Jonas Gillberg, GDC 2019
-          %p
-            <a href="https://gdcvault.com/play/1025905/AI-for-Testing-The-Development">Play on the Vault</a>
-          %p
-            Bots designed specifically to help testing can be incredibly valuable. This talk provides some useful insight on how to develop and manage the workflow of such a system in a large team. 
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Automated Testing: Using AI Controlled Players to Test 'The Division'
-        .panel-body
-          %p 
-            Jose Paredes, Pete Jones, GDC 2019
-          %p
-            <a href="https://gdcvault.com/play/1026069/Automated-Testing-Using-AI-Controlled">Play on the Vault</a>
-          %p
-            Bots seem to be a theme of GDC 2019! This is an hour session, compared to the 30min for the Battlefield session listed above, so looks to go into more detail. 
-          %p
-            We'd recommend seeing both if you can!
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Automated Testing of Gameplay Features in 'Sea of Thieves'
-        .panel-body
-          %p 
-            Robert Masella <a href="https://twitter.com/ZipLockBagMan">@ZipLockBagMan</a>, GDC 2019
-          %p
-            <a href="https://gdcvault.com/play/1026042/Automated-Testing-of-Gameplay-Features">Play on the Vault</a>
-          %p
-            See Robert describe how Rare used multiple tiers of tests in unreal engine to have the confidence to ship Sea of Thieves updates <i>every week</i>.
-          %p
-            Also features the most astounding bug count graph in GDC history.
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Level Up Your Jenkins Reporting
-        .panel-body
-          %p 
-            Adrian Yu, GDC 2019
-          %p
-            <a href="https://gdcvault.com/play/1026019/Level-Up-Your-Jenkins">Play on the Vault</a>
-          %p
-            A talk by veteran roundtabler Adrian Yu on how EA uses Jenkins for continuous integration and deployment - vital tools in the belt of any serious automated tester.
-          %p
-            His talk is more than just a dive into Jenkins, as he promises to explain how they manage spam and notifications to make them truely useful, rather than noisy.
-  .row
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            A QA Perspective on Live Game Production
-        .panel-body
-          %p 
-            Michael Vork Larsen, GDC 2019
-          %p
-            <a href="https://gdcvault.com/play/1026088/A-QA-Perspective-on-Live">Play on the Vault</a>
-          %p
-            How RETO MOTO maintain stability in their live service game by involving QA early in an aglie process, including using automated testing. 
-          %p
-            Heros & Generals is a game that's been running for a while, so this promises to have some great insights. 
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Tools to Reduce Open Bug Count at Media Molecule
-        .panel-body
-          %p 
-            Amy Phillips <a href="https://twitter.com/amy_phillips">@amy_phillips</a>, GDC 2018
-          %p
-            <a href="https://gdcvault.com/play/1025013/Tools-Tutorial-Day-Tools-to">Play on the Vault</a>, FREE!
-          %p
-            How to improve the stability of your game by linking tools together and optimizing the path that bugs take between being introduced and being closed.
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Automated Testing and Profiling for Call of Duty
-        .panel-body
-          %p 
-            Jan van Valburg, GDC 2018
-          %p
-            <a href="https://gdcvault.com/play/1025064/Automated-Testing-and-Profiling-for">Play on the Vault</a>, FREE!
-          %p
-            You will learn about the inner workings of Call of Duty's automated building and testing tooling, it's various unique features, and how its ideas might be applied to your own projects.
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Assassin's Creed Origins: Monitoring and Validation of World Design Data
-        .panel-body
-          %p 
-            Nicholas Routhier, GDC 2018
-          %p
-            <a href="https://gdcvault.com/play/1025054/-Assassin-s-Creed-Origins">Play on the Vault</a>, FREE!
-          %p
-            Daily automated testing of world design data is a game changer. Attendees will learn how it helps world builders in their daily tasks, allows for more iteration time, provides data for evidence based decision making and makes for a much smoother debug phase.
-  .row
-    .col-md-3
-      .panel.panel-danger
-        .panel-heading
-          %h3.text-center
-            Adopting Continuous Delivery At Rare
-        .panel-body
-          %p 
-            Jafar Soltani, GDC 2018
-          %p
-            <a href="https://gdcvault.com/play/1025028/Adopting-Continuous">Play on the Vault</a>, FREE!
-          %p
-            You will learn about the benefits of adopting "continuous delivery" in AAA video games, what challenges you'd face and what practices you can use.
+    - data.vault.current.each do |talksgroup|
+      .row
+      - talksgroup.each do |talk|
+        .col-md-3
+          .panel.panel-danger
+            .panel-heading
+              %h3.text-center= talk.title
+            .panel-body
+              %p
+                #{talk.speakers}, #{talk.year}
+              %p
+                %a{:href => "#{talk.url}"} Play on the Vault
+                - if talk.free
+                  FREE!
+              %p= talk.desc
 .container{:id => "notes"}
   .row
     .col-md-8.col-md-push-2

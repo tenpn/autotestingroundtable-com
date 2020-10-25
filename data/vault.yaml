@@ -1,0 +1,74 @@
+# gotta split them into lists of 4
+current:
+  -
+    - title: "AI for Testing: The Development of Bots that Play 'Battlefield V'"
+      speakers: Jonas Gillberg
+      year: GDC 2019
+      url: https://gdcvault.com/play/1025905/AI-for-Testing-The-Development
+      free: false
+      desc: Bots designed specifically to help testing can be incredibly valuable. This talk provides some useful insight on how to develop and manage the workflow of such a system in a large team. 
+
+    - title: "Automated Testing: Using AI Controlled Players to Test 'The Division'"
+      speakers: Jose Paredes, Pete Jones
+      year: GDC 2019
+      url: https://gdcvault.com/play/1026069/Automated-Testing-Using-AI-Controlled
+      free: false
+      desc: |
+        Bots seem to be a theme of GDC 2019! This is an hour session, compared to the 30min for the Battlefield session listed above, so looks to go into more detail.
+        We'd recommend seeing both if you can!
+
+    - title: "Automated Testing of Gameplay Features in 'Sea of Thieves'"
+      speakers: Robert Masella (<a href="https://www.twitter.com/ZipLockBagMan">@ZipLockBagMan</a>)
+      year: GDC 2019
+      url: https://gdcvault.com/play/1026042/Automated-Testing-of-Gameplay-Features
+      free: false
+      desc: |
+         See Robert describe how Rare used multiple tiers of tests in unreal engine to have the confidence to ship Sea of Thieves updates every week.
+         Also features the most astounding bug count graph in GDC history.
+
+    - title: Level Up Your Jenkins Reporting
+      speakers: Adrian Yu
+      year: GDC 2019
+      url: https://gdcvault.com/play/1026019/Level-Up-Your-Jenkins
+      free: false
+      desc: |
+         A talk by veteran roundtabler Adrian Yu on how EA uses Jenkins for continuous integration and deployment - vital tools in the belt of any serious automated tester.
+         His talk is more than just a dive into Jenkins, as he promises to explain how they manage spam and notifications to make them truely useful, rather than noisy. 
+  -
+    - title: A QA Perspective on Live Game Production
+      speakers: Michael Vork Larsen
+      year: GDC 2019
+      url: https://gdcvault.com/play/1026088/A-QA-Perspective-on-Live
+      free: false
+      desc: |
+        How RETO MOTO maintain stability in their live service game by involving QA early in an aglie process, including using automated testing.
+        Heros & Generals is a game that's been running for a while, so this promises to have some great insights. 
+
+    - title: Tools to Reduce Open Bug Count at Media Molecule
+      speakers: Amy Phillips (<a href="https://www.twitter.com/amy_phillips">@amy_phillips</a>)
+      year: GDC 2018
+      url: https://gdcvault.com/play/1025013/Tools-Tutorial-Day-Tools-to
+      free: true
+      desc: How to improve the stability of your game by linking tools together and optimizing the path that bugs take between being introduced and being closed. 
+
+    - title: Automated Testing and Profiling for Call of Duty
+      speakers: Jan van Valburg
+      year: GDC 2018
+      url: https://gdcvault.com/play/1025064/Automated-Testing-and-Profiling-for
+      free: true
+      desc: You will learn about the inner workings of Call of Duty's automated building and testing tooling, it's various unique features, and how its ideas might be applied to your own projects.
+
+    - title: "Assassin's Creed Origins: Monitoring and Validation of World Design Data"
+      speakers: Nicholas Routhier
+      year: GDC 2018
+      url: https://gdcvault.com/play/1025054/-Assassin-s-Creed-Origins
+      free: true
+      desc: Daily automated testing of world design data is a game changer. Attendees will learn how it helps world builders in their daily tasks, allows for more iteration time, provides data for evidence based decision making and makes for a much smoother debug phase. 
+
+  -
+    - title: Adopting Continuous Delivery At Rare
+      speakers: Jafar Soltani
+      year: GDC 2018
+      url: https://gdcvault.com/play/1025028/Adopting-Continuous
+      free: true
+      desc: You will learn about the benefits of adopting "continuous delivery" in AAA video games, what challenges you'd face and what practices you can use. 
