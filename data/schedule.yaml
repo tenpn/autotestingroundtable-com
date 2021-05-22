@@ -1,2 +1,30 @@
 # gotta split them into lists of 4
-current: []
+current:
+  -
+    - title: Lessons Learned in Adapting the 'Sea of Thieves' Automated Testing Methodology to 'Minecraft'
+      pass: All Access Pass, Core Pass
+      time: TBD
+      speakers: Henry Golding
+      url: https://schedule.gdconf.com/session/lessons-learned-in-adapting-the-sea-of-thieves-automated-testing-methodology-to-minecraft/877900
+      desc: "Sea of Thieves has been making waves(!) the last few years with its focus on automation and deployment. This talk on how similar approaches were tried at sister studio Mojang is sure to be insightful."
+
+    - title: "'Final Fantasy VII' Remake: Automating Quality Assurance and the Tools for the Future"
+      pass: All Access Pass, Core Pass 
+      time: TBD
+      speakers: Fabien Gravot
+      url: https://schedule.gdconf.com/session/final-fantasy-vii-remake-automating-quality-assurance-and-the-tools-for-the-future/878295
+      desc: "Gravot will present a testing AI being used to explore FFIV Remake with greatly reduced setup costs compared to regular exploratory QA tests."
+
+    - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
+      pass:  All Access Pass, Summits Pass
+      time: TBD
+      speakers: Bram Ridder
+      url: https://schedule.gdconf.com/session/ai-summit-automated-game-testing-using-a-numeric-domain-independent-ai-planner/879524
+      desc: This approach to testing with AI looks to be using more classical AI techniques than the usual machine learning approach. It'll be interesting to see how this compares to ML.
+
+    - title: "AI Summit: Where The $@*&% Are Your Tests?!"
+      pass:  All Access Pass, Summits Pass
+      time: TBD
+      speakers: Kevin Dill
+      url: https://schedule.gdconf.com/session/ai-summit-where-the-are-your-tests/879749
+      desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
