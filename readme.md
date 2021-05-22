@@ -1,7 +1,9 @@
 ## setup
 
 > sudo apt-get install ruby-full nodejs
+> 
 > gem install bundler
+> 
 > bundle install
 
 ## development
