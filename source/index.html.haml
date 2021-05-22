@@ -8,31 +8,86 @@ title: Automated Testing Roundtables GDC 2019
       %h1
         AUTOMATED TESTING ROUNDTABLES
     %h2
-      GDC 2020
+      GDC 2021
   
 .container
   .row
     .col-md-8.col-md-push-2
       %p.lead
-        Well, That Didn't Go According To Plan
+        The Automated Testing Roundtables are back again at GDC 2021!
       %p
-        GDC will be back, in some form, at some time, and the roundtables will return. 
-      %p
-        Until then, this website still has some great resources for automated testing in video games! Scroll down for more info.
+        Each session focuses on a different discipline, but cut across team sizes, budgets, genres, and platforms. We don't care if you're a iOS-only one-person indie or a console juggernaut, we just want to hear your voice!
   %br
   .row
     .col-md-8.col-md-push-2
       %p.lead 
         Join the Community
       %p
-        Check out some of the <a href="#recommend">talks around GDC 2020</a> that we recommend, and some of the <a href="#vault">vault talks</a> we've enjoyed in the past. 
+        Check out some of the <a href="#recommend">talks around GDC 2021</a> that we recommend, and some of the <a href="#vault">vault talks</a> we've enjoyed in the past. 
       %p
         If you'd like to keep in touch all year round, why not join our Discord?
-      %a.btn.btn-primary{:role => "button", :href => "https://discord.gg/knxeqcG"}
+      %a.btn.btn-primary{:role => "button", :href => "https://discord.link/atig"}
         Join the Discord!
 .container
   .row
     %p
+.container  
+  .row
+    .col-md-4
+      .panel.panel-info
+        .panel-heading
+          %h3.text-center
+            Process Roundtable
+        .panel-body
+          %p 
+            <a href="https://schedule.gdconf.com/session/automated-testing-roundtable-day-1-process/880569">TBD</a>
+          %p
+            Beyond the software that we use to test our games are the people that write the tests and the workflows they use to reinforce them. How does the process work in your studio? Are the engineers responsible for automated tests, or QA? Are QA silo'd or integrated? What could be better?
+    .col-md-4
+      .panel.panel-info
+        .panel-heading
+          %h3.text-center
+            Legacy Roundtable
+        .panel-body
+          %p 
+            <a href="https://schedule.gdconf.com/session/automated-testing-roundtable-day-2-legacy/880570">TBD</a>
+          %p
+            As much as we would like otherwise, automated testing is still a rarity in our industry. Do you have a culture or a codebase that doesn't currently embrace automated testing? Are you having trouble getting people onboard, or maybe it was very easy and you want to share why? Grand failures are just as interesting as successes! 
+    .col-md-4
+      .panel.panel-info
+        .panel-heading
+          %h3.text-center
+            Implementation Roundtable
+        .panel-body
+          %p
+            <a href="https://schedule.gdconf.com/session/automated-testing-roundtable-day-3-implementation/880571">TBD</a>
+          %p
+            Software automation has many faces, from locally-run functional and unit tests, to server-driven continuous integration, and even external device farms. How do you do automated testing in your team? What works well for you? More interestingly, what didn't work and why? 
+%hr            
+.container{:id => "recommend"}
+  .row
+    .col-md-8.col-md-push-2
+      %p.lead
+        More automated testing talks at GDC
+      %p
+        Here's a selection of GDC 2021 talks that we think might be interesting to Automated Testing Roundtable attendees. Add them to your schedule now! 
+      %p
+        If you've spotted any that you think would be interesting to roundtable attendees, let us know in the <a href="https://discord.gg/knxeqcG">discord</a> or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
+.container
+  .row
+    - data.schedule.current.each do |talksgroup|
+      .row
+      - talksgroup.each do |talk|
+        .col-md-3
+          .panel.panel-danger
+            .panel-heading
+              %h3.text-center= talk.title
+            .panel-body
+              %p= talk.speakers
+              %p= talk.pass
+              %p
+                %a{:href => "#{talk.url}"} #{talk.time}
+              %p= talk.desc
 %hr        
 .container{:id => "vault"}
   .row
@@ -76,4 +131,4 @@ title: Automated Testing Roundtables GDC 2019
 .container        
   %footer
     %p.pull-right
-      &copy; Andrew Fray 2014-2020 n
+      &copy; Andrew Fray 2014-2021 n
