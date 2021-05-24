@@ -84,4 +84,12 @@ current:
       year: GDC 2018
       url: https://gdcvault.com/play/1025028/Adopting-Continuous
       free: true
-      desc: You will learn about the benefits of adopting "continuous delivery" in AAA video games, what challenges you'd face and what practices you can use. 
+      desc: You will learn about the benefits of adopting "continuous delivery" in AAA video games, what challenges you'd face and what practices you can use.
+
+    - title: Practical Unit Tests
+      speakers: Andrew Fray
+      year: GDC 2014
+      url: https://gdcvault.com/play/1020353/Practical-Unit
+      free: true
+      desc: A failure study of Fray's first attempt at unit testing gameplay code, what went wrong, and how you can do better.
+
