@@ -1,6 +1,20 @@
 # gotta split them into lists of 4
 current:
   -
+
+    - title: "AI Summit: Where The $@*&% Are Your Tests?!"
+      pass:  All Access Pass, Summits Pass
+      time: Monday, 19th July, 2pm PDT
+      speakers: Kevin Dill
+      url: https://schedule.gdconf.com/session/ai-summit-where-the-are-your-tests/879749
+      desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
+
+    - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
+      pass:  All Access Pass, Summits Pass
+      time: Tuesday, 20th July, 9.40am PDT
+      speakers: Bram Ridder
+      url: https://schedule.gdconf.com/session/ai-summit-automated-game-testing-using-a-numeric-domain-independent-ai-planner/879524
+      desc: This approach to testing with AI looks to be using more classical AI techniques than the usual machine learning approach. It'll be interesting to see how this compares to ML.
     - title: Lessons Learned in Adapting the 'Sea of Thieves' Automated Testing Methodology to 'Minecraft'
       pass: All Access Pass, Core Pass
       time: Thursday, July 22nd, 10.50am PDT
@@ -14,17 +28,3 @@ current:
       speakers: Fabien Gravot
       url: https://schedule.gdconf.com/session/final-fantasy-vii-remake-automating-quality-assurance-and-the-tools-for-the-future/878295
       desc: "Gravot will present a testing AI being used to explore FFIV Remake with greatly reduced setup costs compared to regular exploratory QA tests."
-
-    - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
-      pass:  All Access Pass, Summits Pass
-      time: Tuesday, 20th July, 9.40am PDT
-      speakers: Bram Ridder
-      url: https://schedule.gdconf.com/session/ai-summit-automated-game-testing-using-a-numeric-domain-independent-ai-planner/879524
-      desc: This approach to testing with AI looks to be using more classical AI techniques than the usual machine learning approach. It'll be interesting to see how this compares to ML.
-
-    - title: "AI Summit: Where The $@*&% Are Your Tests?!"
-      pass:  All Access Pass, Summits Pass
-      time: Monday, 19th July, 2pm PDT
-      speakers: Kevin Dill
-      url: https://schedule.gdconf.com/session/ai-summit-where-the-are-your-tests/879749
-      desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
