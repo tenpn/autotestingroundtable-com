@@ -1,6 +1,36 @@
 # gotta split them into lists of 4
 current:
   -
+
+    - title: "AI Summit: Where The $@*&% Are Your Tests?!"
+      speakers: Kevin Dill
+      year: GDC 2021
+      free: false
+      url: https://gdcvault.com/play/1027240/AI-Summit-Where-The-Are
+      desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
+
+    - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
+      speakers: Bram Ridder
+      year: GDC 2021
+      free: false
+      url: https://gdcvault.com/play/1027236/AI-Summit-Automated-Game-Testing
+      desc: This approach to testing with AI looks to be using more classical AI techniques than the usual machine learning approach. It'll be interesting to see how this compares to ML.
+
+    - title: "Lessons Learned in Adapting the 'Sea of Thieves' Automated Testing Methodology to 'Minecraft'"
+      speakers: Henry Golding
+      year: GDC 2021
+      free: false
+      url: https://gdcvault.com/play/1027345/Lessons-Learned-in-Adapting-the
+      desc: "Sea of Thieves has been making waves(!) the last few years with its focus on automation and deployment. This talk on how similar approaches were tried at sister studio Mojang is sure to be insightful."
+
+    - title: "'Final Fantasy VII' Remake: Automating Quality Assurance and the Tools for the Future"
+      speakers: Fabien Gravot
+      year: GDC 2021
+      free: false
+      url: https://gdcvault.com/play/1027355/-Final-Fantasy-VII-Remake
+      desc: "Gravot will present a testing AI being used to explore FFIV Remake with greatly reduced setup costs compared to regular exploratory QA tests."
+      
+  -
     - title: "From 0-1000: A Test Driven Approach to Tools Development"
       speakers: David Paris
       year: GDC 2020
