@@ -65,16 +65,16 @@ title: Automated Testing Roundtables GDC 2019
             <a href="https://schedule.gdconf.com/session/automated-testing-roundtable-day-3-implementation/885786">Friday, 25th March, 10am PDT</a>
           %p
             Software automation has many faces, from locally-run functional and unit tests, to server-driven continuous integration, and even external device farms. How do you do automated testing in your team? What works well for you? More interestingly, what didn't work and why? 
--# %hr            
--# .container{:id => "recommend"}
--#   .row
--#     .col-md-8.col-md-push-2
--#       %p.lead
--#         More automated testing talks at GDC 2021
--#       %p
--#         Here's a selection of talks that we think might be interesting to Automated Testing Roundtable attendees. Add them to your schedule now! 
--#       %p
--#         If you've spotted any that you think would be interesting to roundtable attendees, let us know in the <a href="https://discord.gg/knxeqcG">discord</a> or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
+%hr            
+.container{:id => "recommend"}
+  .row
+    .col-md-8.col-md-push-2
+      %p.lead
+        More automated testing talks at GDC 2022
+      %p
+        Here's a selection of talks that we think might be interesting to Automated Testing Roundtable attendees. Add them to your schedule now! 
+      %p
+        If you've spotted any that you think would be interesting to roundtable attendees, let us know in the <a href="https://discord.gg/knxeqcG">discord</a> or email <a href="mailto:andrew@autotestingroundtable.com">andrew@autotestingroundtable.com</a>.
 .container
   .row
     - data.schedule.current.each do |talksgroup|
@@ -88,7 +88,7 @@ title: Automated Testing Roundtables GDC 2019
               %p= talk.speakers
               %p= talk.pass
               %p
-                %a{:href => "#{talk.url}"} #{talk.time}
+                %a{:href => "#{talk.url}"} #{talk.time}, #{talk.location}
               %p= talk.desc
 %hr        
 .container{:id => "vault"}
