@@ -1,33 +1,25 @@
 # gotta split them into lists of 4
-current:
+current: 
   -
-    - title: "Tools Roundtables Day 1: Workflow"
-      pass:  All Access Pass, Core Pass
-      time: Wednesday, 10:30am PDT
-      location:  Room 216, South
-      speakers: Geoff Evans
-      url: https://schedule.gdconf.com/session/tools-roundtables-day-1-workflow/883053
-      desc: |
-        The Tools Roundtables are always worth attending, with lots of overlap between attendees
-        <br/><br/>
-        Wednesday is "Workflow", focuses on GUI tools programming languages, design patterns, frameworks, usability, user interfaces, and telemetry.
-    - title: "Tools Roundtables Day 2: Assets"
-      pass:  All Access Pass, Core Pass
-      time: Thursday, 2pm PDT
-      location: Room 215, South
-      speakers: Geoff Evans
-      url: https://schedule.gdconf.com/session/tools-roundtables-day-2-assets/885758
-      desc: |
-        The Tools Roundtables are always worth attending, with lots of overlap between attendees
-        <br/><br/>
-        Thursday: "Assets" focuses on export, persistence, collaboration, searching and organization, development models (branch vs. trunk), revision control, and handling outsourcing.
-    - title: "Tools Roundtables Day 3: Pipeline"
-      pass:  All Access Pass, Core Pass
-      time: Friday, 11.30am PDT
-      location: Room 215, South
-      speakers: Geoff Evans
-      url: https://schedule.gdconf.com/session/tools-roundtables-day-3-pipeline/885759
-      desc: |
-        The Tools Roundtables are always worth attending, with lots of overlap between attendees
-        <br/><br/>
-        Friday: "Pipeline" focuses on processing assets through to the game in all its forms: build systems, caching, distribution, scalability, optimization, disc mastering and patching.
+
+    - title: "Fixing Bugs by Cloning Them in 'The Last Clockwinder'"
+      speakers: Matthew Blair
+      pass: All Access Pass, Summits Pass, Independent Games Summit Pass 
+      time: TBD
+      url: https://schedule.gdconf.com/session/independent-games-summit-fixing-bugs-by-cloning-them-in-the-last-clockwinder/891863
+      desc: Automated input replay can be a valuable tool in building some types of tests. This talk explains some practical steps to implement this in Unity.
+
+    - title: "Engine Optimization Powered by Big Data"
+      speakers: Vladimir Katchadourian, Vincent Leclercq
+      pass: All Access Pass, Core Pass 
+      time: TBD
+      url: https://schedule.gdconf.com/session/engine-optimization-powered-by-big-data/890849
+      desc: If performance is a pillar of your game, why not track it with the same automated tools you use for testing? In this talk, Ubisoft explains their approach to aggregating and analysing performance data.
+
+    - title: "TestMonkey: Automated Testing At Santa Monica Studio"
+      speakers: Ben Hines
+      pass: All Access Pass, Summits Pass
+      time: TBD
+      url: https://schedule.gdconf.com/session/tools-summit-testmonkey-automated-testing-at-santa-monica-studio/893237
+      desc: A deep dive into Sony Santa Monica's testing framework, that can handle Visual Tests, Smoke Tests, SAN / ASAN Tests, Determinism, Gameplay, and Code Integration tests.
+
