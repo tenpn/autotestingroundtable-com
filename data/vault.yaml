@@ -1,32 +1,59 @@
 # gotta split them into lists of 4
 current:
   -
+    - title: "Fixing Bugs by Cloning Them in 'The Last Clockwinder'"
+      speakers: Matthew Blair
+      year: GDC 2023
+      free: true
+      url: https://gdcvault.com/play/1029182/Independent-Games-Summit-Fixing-Bugs
+      desc: Automated input replay can be a valuable tool in building some types of tests. This talk explains some practical steps to implement this in Unity.
 
+    - title: "TestMonkey: Automated Testing At Santa Monica Studio"
+      speakers: Ben Hines
+      year: GDC 2023
+      free: false
+      url: https://gdcvault.com/play/1029379/Tools-Summit-TestMonkey-Automated-Testing
+      desc: A deep dive into Sony Santa Monica's testing framework, that can handle Visual Tests, Smoke Tests, SAN / ASAN Tests, Determinism, Gameplay, and Code Integration tests.
+
+    - title: "AI for Testing at EA: From 'Star Wars' to 'Apex' and Beyond"
+      speakers: Jonas Gillberg
+      year: GDC 2023
+      free: false
+      url: https://gdcvault.com/play/1028924/AI-Summit-AI-for-Testing
+      desc: Follow a simple testing AI for Battlefield V as it evolves into a useful tool for research and testing across EA
+      
+    - title: "Engine Optimization Powered by Big Data"
+      speakers: Vladimir Katchadourian, Vincent Leclercq
+      year: GDC 2023
+      free: false
+      url: https://gdcvault.com/play/1029045/Engine-Optimization-Powered-by-Big
+      desc: If performance is a pillar of your game, why not track it with the same automated tools you use for testing? In this talk, Ubisoft explains their approach to aggregating and analysing performance data.
+  -
     - title: "AI Summit: Where The $@*&% Are Your Tests?!"
       speakers: Kevin Dill
       year: GDC 2021
-      free: false
+      free: true
       url: https://gdcvault.com/play/1027240/AI-Summit-Where-The-Are
       desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
 
     - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
       speakers: Bram Ridder
       year: GDC 2021
-      free: false
+      free: true
       url: https://gdcvault.com/play/1027236/AI-Summit-Automated-Game-Testing
       desc: This approach to testing with AI looks to be using more classical AI techniques than the usual machine learning approach. It'll be interesting to see how this compares to ML.
 
     - title: "Lessons Learned in Adapting the 'Sea of Thieves' Automated Testing Methodology to 'Minecraft'"
       speakers: Henry Golding
       year: GDC 2021
-      free: false
+      free: true
       url: https://gdcvault.com/play/1027345/Lessons-Learned-in-Adapting-the
       desc: "Sea of Thieves has been making waves(!) the last few years with its focus on automation and deployment. This talk on how similar approaches were tried at sister studio Mojang is sure to be insightful."
 
     - title: "'Final Fantasy VII' Remake: Automating Quality Assurance and the Tools for the Future"
       speakers: Fabien Gravot
       year: GDC 2021
-      free: false
+      free: true
       url: https://gdcvault.com/play/1027355/-Final-Fantasy-VII-Remake
       desc: "Gravot will present a testing AI being used to explore FFIV Remake with greatly reduced setup costs compared to regular exploratory QA tests."
       
@@ -49,14 +76,14 @@ current:
       speakers: Jonas Gillberg
       year: GDC 2019
       url: https://gdcvault.com/play/1025905/AI-for-Testing-The-Development
-      free: false
+      free: true
       desc: Bots designed specifically to help testing can be incredibly valuable. This talk provides some useful insight on how to develop and manage the workflow of such a system in a large team. 
 
     - title: "Automated Testing: Using AI Controlled Players to Test 'The Division'"
       speakers: Jose Paredes, Pete Jones
       year: GDC 2019
       url: https://gdcvault.com/play/1026069/Automated-Testing-Using-AI-Controlled
-      free: false
+      free: true
       desc: |
         Bots seem to be a theme of GDC 2019! This is an hour session, compared to the 30min for the Battlefield session listed above, so looks to go into more detail.
         We'd recommend seeing both if you can!
@@ -65,7 +92,7 @@ current:
       speakers: Robert Masella (<a href="https://www.twitter.com/ZipLockBagMan">@ZipLockBagMan</a>)
       year: GDC 2019
       url: https://gdcvault.com/play/1026042/Automated-Testing-of-Gameplay-Features
-      free: false
+      free: true
       desc: |
          See Robert describe how Rare used multiple tiers of tests in unreal engine to have the confidence to ship Sea of Thieves updates every week.
          Also features the most astounding bug count graph in GDC history.
@@ -74,7 +101,7 @@ current:
       speakers: Adrian Yu
       year: GDC 2019
       url: https://gdcvault.com/play/1026019/Level-Up-Your-Jenkins
-      free: false
+      free: true
       desc: |
          A talk by veteran roundtabler Adrian Yu on how EA uses Jenkins for continuous integration and deployment - vital tools in the belt of any serious automated tester.
          His talk is more than just a dive into Jenkins, as he promises to explain how they manage spam and notifications to make them truely useful, rather than noisy. 
@@ -83,7 +110,7 @@ current:
       speakers: Michael Vork Larsen
       year: GDC 2019
       url: https://gdcvault.com/play/1026088/A-QA-Perspective-on-Live
-      free: false
+      free: true
       desc: |
         How RETO MOTO maintain stability in their live service game by involving QA early in an aglie process, including using automated testing.
         Heros & Generals is a game that's been running for a while, so this promises to have some great insights. 

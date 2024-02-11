@@ -2,34 +2,27 @@
 current: 
   -
 
-    - title: "Fixing Bugs by Cloning Them in 'The Last Clockwinder'"
-      speakers: Matthew Blair
-      pass: All Access Pass, Summits Pass, Independent Games Summit Pass 
-      time: Monday 3pm
-      location: Room 2005, West Hall
-      url: https://schedule.gdconf.com/session/independent-games-summit-fixing-bugs-by-cloning-them-in-the-last-clockwinder/891863
-      desc: Automated input replay can be a valuable tool in building some types of tests. This talk explains some practical steps to implement this in Unity.
+    - title: "Testing Empowered: Integrating ML-Based Playtesting in a Team with Limited QA Capacity"
+      speakers: Sun Jeong
+      pass: All Access Pass, Core Pass
+      time: TBD
+      location: TBD
+      url: https://schedule.gdconf.com/session/testing-empowered-integrating-ml-based-playtesting-in-a-team-with-limited-qa-capacity/898710
+      desc: A guide to automated exploratory playtesting for small- to medium-sized teams
 
-    - title: "TestMonkey: Automated Testing At Santa Monica Studio"
-      speakers: Ben Hines
-      pass: All Access Pass, Summits Pass
-      time: Monday 4.40pm
-      location: Room 3004, West Hall
-      url: https://schedule.gdconf.com/session/tools-summit-testmonkey-automated-testing-at-santa-monica-studio/893237
-      desc: A deep dive into Sony Santa Monica's testing framework, that can handle Visual Tests, Smoke Tests, SAN / ASAN Tests, Determinism, Gameplay, and Code Integration tests.
+    - title: "Automated Testing of Shader Code"
+      speakers: Keith Stockdale
+      pass: All Access Pass, Core Pass
+      time: TBD
+      location: TBD
+      url: https://schedule.gdconf.com/session/automated-testing-of-shader-code/899160
+      desc: More details from the ubertesters at Rare, this time on shaders - always a difficult thing to test
 
-    - title: "AI for Testing at EA: From 'Star Wars' to 'Apex' and Beyond"
-      speakers: Jonas Gillberg
+    - title: "Taming the Beast: Leveraging Machine Learning to Curb the Cost of Continuous Integration"
+      speakers: Sarra Habchi
       pass: All Access Pass, Summits Pass
-      time: Tuesday 4.10pm
-      location: Room 2002, West Hall
-      url: https://schedule.gdconf.com/session/ai-summit-ai-for-testing-from-bot-concept-to-bot-culture/891913
-      desc: Follow a simple testing AI for Battlefield V as it evolves into a useful tool for research and testing across EA
-    - title: "Engine Optimization Powered by Big Data"
-      speakers: Vladimir Katchadourian, Vincent Leclercq
-      pass: All Access Pass, Core Pass 
-      time: Wednesday 2pm
-      location:  Room 215, South Hall
-      url: https://schedule.gdconf.com/session/engine-optimization-powered-by-big-data/890849
-      desc: If performance is a pillar of your game, why not track it with the same automated tools you use for testing? In this talk, Ubisoft explains their approach to aggregating and analysing performance data.
+      time: TBD
+      location: TBD, Machine Learning Summit
+      url: https://schedule.gdconf.com/session/machine-learning-summit-taming-the-beast-leveraging-machine-learning-to-curb-the-cost-of-continuous-integration/902401
+      desc: Sarra promises to explain how you can use machine learning to shorten build times on your continuous integration server
 
