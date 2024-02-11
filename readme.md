@@ -20,4 +20,4 @@ FTP won't work any more, but for legacy: you need the password!
 
 > middleman deploy
 
-
+Currently auto-deploys via netlify
