@@ -5,24 +5,30 @@ current:
     - title: "Testing Empowered: Integrating ML-Based Playtesting in a Team with Limited QA Capacity"
       speakers: Sun Jeong
       pass: All Access Pass, Core Pass
-      time: TBD
-      location: TBD
+      time: Wednesday, 11.30am-12pm
+      location: Room 2010 West
       url: https://schedule.gdconf.com/session/testing-empowered-integrating-ml-based-playtesting-in-a-team-with-limited-qa-capacity/898710
       desc: A guide to automated exploratory playtesting for small- to medium-sized teams
 
     - title: "Automated Testing of Shader Code"
       speakers: Keith Stockdale
       pass: All Access Pass, Core Pass
-      time: TBD
-      location: TBD
+      time: Wednesday, 2-3pm
+      location: Room 3014 West
       url: https://schedule.gdconf.com/session/automated-testing-of-shader-code/899160
       desc: More details from the ubertesters at Rare, this time on shaders - always a difficult thing to test
 
     - title: "Taming the Beast: Leveraging Machine Learning to Curb the Cost of Continuous Integration"
       speakers: Sarra Habchi
       pass: All Access Pass, Summits Pass
-      time: TBD
-      location: TBD, Machine Learning Summit
+      time: Tuesday, 2.10-2.40pm
+      location: Room 2010 West
       url: https://schedule.gdconf.com/session/machine-learning-summit-taming-the-beast-leveraging-machine-learning-to-curb-the-cost-of-continuous-integration/902401
       desc: Sarra promises to explain how you can use machine learning to shorten build times on your continuous integration server
-
+    - title: "QA Bots for Everyone"
+      speakers: "Christoffer Holmgård"
+      pass: All Access Pass, Core Pass, Summits Pass, Expo Pass, Audio Pass, Friday Only Expo Pass, Indie Games Summit Pass
+      time: Friday, 11.30am-12pm
+      location: Room 2024 West
+      url: https://schedule.gdconf.com/session/qa-bots-for-everyone-presented-by-modlai/903751
+      desc: "A sponsored talk from modl.ai, but includes a deep dive into the bot implementation for Salt Sea Chronicles, a narrative game and therefore outside the comfort zone of tools like this. Will be interesting to see how they handle it."
