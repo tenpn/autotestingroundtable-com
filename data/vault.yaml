@@ -1,12 +1,34 @@
 # gotta split them into lists of 4
 current:
-  -
+  - 
+    - title: "Testing Empowered: Integrating ML-Based Playtesting in a Team with Limited QA Capacity"
+      speakers: Sun Jeong
+      year: GDC 2024
+      free: false
+      url: https://gdcvault.com/play/1034179/Testing-Empowered-Integrating-Machine-Learning
+      desc: A guide to automated exploratory playtesting for small- to medium-sized teams
+      
+    - title: "Automated Testing of Shader Code"
+      speakers: Keith Stockdale
+      year: GDC 2024
+      free: false
+      url: https://gdcvault.com/play/1034202/Automated-Testing-of-Shader
+      desc: More details from the ubertesters at Rare, this time on shaders - always a difficult thing to test
+      
+    - title: "Taming the Beast: Leveraging Machine Learning to Curb the Cost of Continuous Integration"
+      speakers: Sarra Habchi
+      year: GDC 2024
+      free: false
+      url: https://gdcvault.com/play/1034573/Machine-Learning-Summit-Taming-the
+      desc: Sarra explains how Ubisoft La Forge use machine learning to shorten build times on their continuous integration server
+      
     - title: "Fixing Bugs by Cloning Them in 'The Last Clockwinder'"
       speakers: Matthew Blair
       year: GDC 2023
       free: true
       url: https://gdcvault.com/play/1029182/Independent-Games-Summit-Fixing-Bugs
       desc: Automated input replay can be a valuable tool in building some types of tests. This talk explains some practical steps to implement this in Unity.
+  -
 
     - title: "TestMonkey: Automated Testing At Santa Monica Studio"
       speakers: Ben Hines
@@ -28,14 +50,14 @@ current:
       free: false
       url: https://gdcvault.com/play/1029045/Engine-Optimization-Powered-by-Big
       desc: If performance is a pillar of your game, why not track it with the same automated tools you use for testing? In this talk, Ubisoft explains their approach to aggregating and analysing performance data.
-  -
+      
     - title: "AI Summit: Where The $@*&% Are Your Tests?!"
       speakers: Kevin Dill
       year: GDC 2021
       free: true
       url: https://gdcvault.com/play/1027240/AI-Summit-Where-The-Are
       desc: Pracical lessons on unit testing AI from frequent AI Summit speaker Kevin Dill. This will be sure to have useful concrete takeaways.
-
+  -
     - title: "AI Summit: Automated Game Testing Using a Numeric Domain Independent AI Planner"
       speakers: Bram Ridder
       year: GDC 2021
@@ -57,7 +79,6 @@ current:
       url: https://gdcvault.com/play/1027355/-Final-Fantasy-VII-Remake
       desc: "Gravot will present a testing AI being used to explore FFIV Remake with greatly reduced setup costs compared to regular exploratory QA tests."
       
-  -
     - title: "From 0-1000: A Test Driven Approach to Tools Development"
       speakers: David Paris
       year: GDC 2020
@@ -65,6 +86,7 @@ current:
       free: true
       desc: How did Playground Games introduce a testing culture to an already-shipped game, and why? What did they learn, and how do they plan to improve? 
 
+  -
     - title: Building An Intelligent Game Testing System in Netease MMORPG Game
       speakers: Yingfeng Chen, Xiao Li
       year: GDC 2020
@@ -87,7 +109,7 @@ current:
       desc: |
         Bots seem to be a theme of GDC 2019! This is an hour session, compared to the 30min for the Battlefield session listed above, so looks to go into more detail.
         We'd recommend seeing both if you can!
-  -
+        
     - title: "Automated Testing of Gameplay Features in 'Sea of Thieves'"
       speakers: Robert Masella (<a href="https://www.twitter.com/ZipLockBagMan">@ZipLockBagMan</a>)
       year: GDC 2019
@@ -96,7 +118,7 @@ current:
       desc: |
          See Robert describe how Rare used multiple tiers of tests in unreal engine to have the confidence to ship Sea of Thieves updates every week.
          Also features the most astounding bug count graph in GDC history.
-
+  -
     - title: Level Up Your Jenkins Reporting
       speakers: Adrian Yu
       year: GDC 2019
@@ -120,8 +142,8 @@ current:
       year: GDC 2018
       url: https://gdcvault.com/play/1025013/Tools-Tutorial-Day-Tools-to
       free: true
-      desc: How to improve the stability of your game by linking tools together and optimizing the path that bugs take between being introduced and being closed. 
-  -
+      desc: How to improve the stability of your game by linking tools together and optimizing the path that bugs take between being introduced and being closed.
+      
     - title: Automated Testing and Profiling for Call of Duty
       speakers: Jan van Valburg
       year: GDC 2018
@@ -129,6 +151,7 @@ current:
       free: true
       desc: You will learn about the inner workings of Call of Duty's automated building and testing tooling, it's various unique features, and how its ideas might be applied to your own projects.
 
+  -
     - title: "Assassin's Creed Origins: Monitoring and Validation of World Design Data"
       speakers: Nicholas Routhier
       year: GDC 2018

@@ -2,33 +2,58 @@
 current: 
   -
 
-    - title: "Testing Empowered: Integrating ML-Based Playtesting in a Team with Limited QA Capacity"
-      speakers: Sun Jeong
-      pass: All Access Pass, Core Pass
-      time: Wednesday, 11.30am-12pm
-      location: Room 2010 West
-      url: https://schedule.gdconf.com/session/testing-empowered-integrating-ml-based-playtesting-in-a-team-with-limited-qa-capacity/898710
-      desc: A guide to automated exploratory playtesting for small- to medium-sized teams
-
-    - title: "Automated Testing of Shader Code"
-      speakers: Keith Stockdale
-      pass: All Access Pass, Core Pass
-      time: Wednesday, 2-3pm
-      location: Room 3014 West
-      url: https://schedule.gdconf.com/session/automated-testing-of-shader-code/899160
-      desc: More details from the ubertesters at Rare, this time on shaders - always a difficult thing to test
-
-    - title: "Taming the Beast: Leveraging Machine Learning to Curb the Cost of Continuous Integration"
-      speakers: Sarra Habchi
+    - title: "Tools Summit: Mission Kontrol: Revolutionizing Combat Testing for 'Mortal Kombat 1'"
+      speakers: Etienne Palmer-Campbell 
       pass: All Access Pass, Summits Pass
-      time: Tuesday, 2.10-2.40pm
-      location: Room 2010 West
-      url: https://schedule.gdconf.com/session/machine-learning-summit-taming-the-beast-leveraging-machine-learning-to-curb-the-cost-of-continuous-integration/902401
-      desc: Sarra promises to explain how you can use machine learning to shorten build times on your continuous integration server
-    - title: "QA Bots for Everyone"
-      speakers: "Christoffer Holmgård"
-      pass: All Access Pass, Core Pass, Summits Pass, Expo Pass, Audio Pass, Friday Only Expo Pass, Indie Games Summit Pass
-      time: Friday, 11.30am-12pm
-      location: Room 2024 West
-      url: https://schedule.gdconf.com/session/qa-bots-for-everyone-presented-by-modlai/903751
-      desc: "A sponsored talk from modl.ai, but includes a deep dive into the bot implementation for Salt Sea Chronicles, a narrative game and therefore outside the comfort zone of tools like this. Will be interesting to see how they handle it."
+      time: Tuesday, 4.40pm-5.10pm
+      location: 3014 West
+      url: https://schedule.gdconf.com/session/tools-summit-mission-kontrol-revolutionizing-combat-testing-for-mortal-kombat-1/909227
+      desc: '"Discover how the Unreal Engine''s UI and networking modules can be used to efficiently create a framework for specialized gameplay testing tools, and how this type of tool can become essential to every developer on the team."'
+      
+    - title: "Effortless Game Testing with Planning Agents (Presented by Filuta AI)"
+      speakers: Filip Dvorak
+      pass: All Access Pass, Core Pass, Summits Pass, Expo Pass, Audio Pass, Indie Games Summit Pass
+      time: Wednesday, 10.30am-11am
+      location: 3020 West
+      url: https://schedule.gdconf.com/session/effortless-game-testing-with-planning-agents-presented-by-filuta-ai/911034
+      desc: '"See how Planning Agents can exponentially reduce efforts in maintaining test scripts, reduce the total time of game testing by an order of magnitude, and continually evaluate the cognitive complexity of gameplay."'
+      
+    - title: "Tools Roundtable Day 1: Engineering"
+      speakers: Geoff Evans
+      pass: All Access Pass, Core Pass
+      time: Wednesday, 10.30am-11.30am
+      location: 306 South
+      url: https://schedule.gdconf.com/session/tools-roundtable-day-1-engineering/908033
+      desc: 'Automated testing has a huge reliance on tools, so you''re sure to enjoy our sister roundtables'
+      
+    - title: "'Apex Legends': Preventing Exploits and Shipping Risky Features Using... NavMesh??"
+      speakers: Ian Holstead
+      pass: All Access Pass, Core Pass
+      time: Wednesday, 3.30pm-4.30pm
+      location: 2005 West
+      url: https://schedule.gdconf.com/session/apex-legends-preventing-exploits-and-shipping-risky-features-using-navmesh/907494
+      desc: '"...Learn about our novel web server based, in-game test framework to provide robust regression testing and automatic error reporting and how the combination of these systems allowed us to ship this Legend exploit free."'
+  -
+    - title: "Tools Roundtable Day 2: Assets"
+      speakers: Geoff Evans
+      pass: All Access Pass, Core Pass
+      time: Thursday, 11am-12am
+      location: 308 South
+      url: https://schedule.gdconf.com/session/tools-roundtable-day-2-assets/911357
+      desc: 'Automated testing has a huge reliance on tools, so you''re sure to enjoy our sister roundtables'
+      
+    - title: "Automating Optimization: The Power of Continuous Performance Monitoring (Presented by VIRTUOS)"
+      speakers: Stephen Cavanagh, Marios Michaelides
+      pass: All Access Pass, Core Pass, Summits Pass, Expo Pass, Audio Pass, Indie Games Summit Pass
+      time: Thursday, 11am-12am
+      location: 2009 West
+      url: https://schedule.gdconf.com/session/automating-optimization-the-power-of-continuous-performance-monitoring-presented-by-virtuos/911334
+      desc: '"Attendees will learn about integrating monitoring tools and techniques into their CI/CD pipelines, gaining insights into reducing repetitive tasks, improving decision-making, and transforming optimization into a proactive element of the development lifecycle."'
+      
+    - title: "Tools Roundtable Day 3: Build"
+      speakers: Geoff Evans
+      pass: All Access Pass, Core Pass
+      time: Friday, 3pm-4pm
+      location: 308 South
+      url: https://schedule.gdconf.com/session/tools-roundtable-day-3-build/911358
+      desc: 'Automated testing has a huge reliance on tools, so you''re sure to enjoy our sister roundtables'
