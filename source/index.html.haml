@@ -1,8 +1,15 @@
 %html
   %head
-    %meta{charset: 'utf-8'}
-    %meta{http_equiv: 'refresh', content: '0; url=https://atig.dev/gdc'}
+    %meta{charset: "utf-8"}/
+    %meta{http-equiv: "refresh", content: "0; url=https://atig.dev/gdc"}/
+    %meta{name: "robots", content: "noindex"}/
     %title Redirecting...
+    :javascript
+      window.location.href = 'https://atig.dev/gdc';
   %body
     %h1 Redirecting...
-    %p You are being redirected to <a href="https://atig.dev/gdc">https://atig.dev/gdc</a>.
+    %p
+      You are being redirected to
+      %a{href: "https://atig.dev/gdc"} https://atig.dev/gdc
+      %br
+      If you are not redirected, please click the link above.
